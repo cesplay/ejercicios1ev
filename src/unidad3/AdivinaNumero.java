@@ -11,8 +11,7 @@ public class AdivinaNumero {
 		int numero=0;
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println(n);
-		System.out.println(random);
+
 		System.out.printf("He pensado un número entre 1 y %d, adivina cuál es: \n", n);
 		while(numero!=random) {
 			numero= teclado.nextInt();
