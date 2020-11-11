@@ -36,6 +36,7 @@ public class Ejercicio3 {
 			}
 		}
 		System.out.print("la segunda esta contenida" + contador +  "veces en la primera");
+		keyboard.close();
 	}
 
 }
